@@ -11,7 +11,7 @@ export default class PostCard extends Component{
                 <View style={styles.authorContainer}> 
                     <View style={styles.authorImageContainer}>
                     <Image 
-                        source={require("./assets/profile_img.png") }
+                        source={require("./profile_img.png") }
                         style={styles.profileImage}
                     ></Image>
                 </View> 
@@ -19,7 +19,7 @@ export default class PostCard extends Component{
                     <Text style={styles.authorNameText}>{this.props.post.author}</Text> 
                 </View>
             </View> 
-            <Image source={require("./assets/post.jpg")} style={styles.postImage} /> 
+            <Image source={require("./post.jpg")} style={styles.postImage} /> 
             <View style={styles.captionContainer}> 
                 <Text style={Styles.captionText}>
                     {this.props.post.caption} 
