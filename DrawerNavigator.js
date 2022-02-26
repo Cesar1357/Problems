@@ -1,7 +1,7 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import BottomTabNavigator from './BottomTabNavigator';
-import Profile from '../screens/Profile';
+import Profile from './Profile';
 
 const Drawer = createDrawerNavigator();
 
