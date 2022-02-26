@@ -1,8 +1,8 @@
 import React from 'react';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Feed from "../screens/Feed";
-import CreatePost from "../screens/CreatePost";
+import Feed from "./Feed";
+import CreatePost from "./CreatePost";
 
 const Tab = createMaterialBottomTabNavigator();
 
