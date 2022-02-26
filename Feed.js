@@ -4,7 +4,7 @@ import {Text,View,StyleSheet, Platform,Image} from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import PostCard from '../PostCard';
+import PostCard from './PostCard';
 
 export default class Feed extends Component{
     
